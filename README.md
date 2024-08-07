@@ -34,7 +34,7 @@ Here are some of my notable projects:
 
 ## 📈 Random Stats
 
-![Random Stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical)
+![Random Stats](https://github-readme-stats.vercel.app/api?username=cleverfakealias&show_icons=true&theme=radical)
 
 ## 🤝 Let's Connect
 
