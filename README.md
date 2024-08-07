@@ -32,7 +32,7 @@ Here are some of my notable projects:
 - Developed and maintained large-scale applications with comprehensive front-end and back-end solutions.
 - Contributed to multiple projects utilizing Agile methodologies and continuous integration practices.
 
-## 📈 GitHub Stats
+## 📈 Random Stats
 
 ![Random Stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical)
 
