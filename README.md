@@ -23,7 +23,6 @@ I am a dedicated Software Engineer with extensive experience in full-stack devel
 
 Here are some of my notable projects:
 
-- **[Enterprise Account](https://github.com/bjhickman/):** As you can imagine, I can't quite show off all the cool stuff I do in my career but you can view other projects below: 
 - **[Vue Website](https://github.com/cleverfakealias/ui):** WORK-IN-PROGRESS - My website built in Typescript using VueJS, Nuxt, and Vercel. 
 - **[Microservices Platform](https://github.com/cleverfakealias/api):** WORK-IN-PROGRESS - Small Python application as a serverless function to send email via SendGrid API. 
 
