@@ -24,8 +24,7 @@ I am a dedicated Software Engineer with extensive experience in full-stack devel
 Here are some of my notable projects:
 
 - **[Vue Website](https://github.com/cleverfakealias/ui):** WORK-IN-PROGRESS - My website built in Typescript using VueJS, Nuxt, and Vercel. 
-- **[Microservices Platform](https://github.com/cleverfakealias/api):** WORK-IN-PROGRESS - Small Python application as a serverless function to send email via SendGrid API. 
-
+ 
 ## 🌟 Highlights
 
 - Developed and maintained large-scale applications with comprehensive front-end and back-end solutions.
