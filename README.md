@@ -18,13 +18,7 @@ I am a dedicated Software Engineer with extensive experience in full-stack devel
 - **Databases:** Oracle, Postgres, Microsoft SQL Server, DynamoDB
 - **CI/CD:** Azure Pipelines, Jenkins, Drone
 - **Other Technologies:** Docker, Kubernetes, Microservices, Event-Driven Architecture, Agile/Scrum
-
-## 🔥 My Projects
-
-Here are some of my notable projects:
-
-- **[Vue Website](https://github.com/cleverfakealias/ui):** WORK-IN-PROGRESS - My website built in Typescript using VueJS, Nuxt, and Vercel. 
- 
+- 
 ## 🌟 Highlights
 
 - Developed and maintained large-scale applications with comprehensive front-end and back-end solutions.
