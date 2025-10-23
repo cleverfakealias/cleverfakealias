@@ -42,10 +42,6 @@ Full-stack platform for modular content management, built with Next.js, Sanity C
 ![Streaks](https://streak-stats.demolab.com/?user=cleverfakealias&theme=tokyonight&hide_border=true)  
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=cleverfakealias&layout=compact&theme=tokyonight&hide_border=true)
 
-## Contribution Snake
-
-![Snake animation](https://github.com/cleverfakealias/cleverfakealias/blob/output/github-contribution-grid-snake.svg)
-
 ## Currently Working On
 
 - Expanding ZennLogic’s modular SaaS ecosystem.  
