@@ -1,56 +1,63 @@
-Founder, Principal Software Engineer & Cloud Architect specializing in scalable systems on AWS. I build full-stack applications that merge intelligent automation, applied AI, and modern cloud architecture.
+# Ben Hickman
+Founder • Software Engineer (Cloud + AI Systems)  
+I build and operate distributed software on AWS, and I add AI where it measurably improves the product: search, automation, and workflow tooling.
 
-## About Me
+**Contact:** me@benhickman.dev
 
-- 7+ years of experience designing and deploying distributed systems across AWS.  
-- Focused on applied AI systems using LangChain, OpenAI, and vector databases.  
-- Skilled in AWS-native infrastructure, CI/CD pipelines, and microservice design.  
-- Founder of **BenHickman.dev**, creating intelligent and resilient software ecosystems.  
-- Contact: **me@benhickman.dev**
+---
+
+## What I Do
+- Ship **event-driven backends**: ingestion, orchestration, async workflows, and service-to-service APIs.
+- Build **AI-enabled features**: retrieval (RAG), document intelligence, and tool-using automation.
+- Deliver **full-stack**: APIs + admin UIs + CI/CD + observability, with production constraints in mind.
+
+---
+
+## How I Build
+I optimize for:
+- **Clarity over cleverness** (simple interfaces, explicit contracts)
+- **Reliability over heroics** (idempotency, retries, backpressure, failure modes)
+- **Measured AI** (evals, latency/cost tracking, retrieval quality checks)
+- **Operability** (logs/metrics/traces, safe deploys, easy rollbacks)
+
+---
 
 ## Core Stack
+**Languages:** Python, Java, TypeScript  
+**AWS:** Lambda, EC2, API Gateway, S3, DynamoDB, RDS, CloudFront, Route 53  
+**Infra:** CloudFormation, Terraform, Docker, Kubernetes  
+**Back End:** FastAPI, Flask, Dropwizard  
+**Front End:** React, Next.js, Vite  
+**Data & AI:** Postgres, ChromaDB, LangChain, OpenAI API, Hugging Face  
+**CI/CD & Observability:** GitHub Actions, Azure Pipelines, Jenkins, Grafana, Prometheus
 
-**Languages:** Python, Java, TypeScript, JavaScript  
-**Cloud & Infrastructure:** AWS (EC2, Lambda, API Gateway, S3, DynamoDB, RDS, CloudFront, Route 53), CloudFormation, Terraform, Docker, Kubernetes  
-**Front-End:** React, Next.js, Vite, Storybook, Jest, Cypress  
-**Back-End:** Flask, FastAPI, Dropwizard, Guice, Maven  
-**Data & AI:** ChromaDB, LangChain, OpenAI API, Hugging Face, Postgres  
-**CI/CD & Observability:** GitHub Actions, Azure Pipelines, Jenkins, Drone, Grafana, Prometheus  
+---
 
-## Highlights
+## Work Highlights
+- Designed and operated **event-driven AWS architectures** for high-availability SaaS systems.
+- Built **private retrieval pipelines** for internal document search and automation.
+- Developed **REST + MCP APIs** to integrate LLM workflows into real services.
+- Automated **infrastructure + releases** with IaC and CI/CD guardrails.
+- Delivered **admin surfaces** that support operational workflows (not just pretty dashboards).
 
-- Designed event-driven AWS architectures for high-availability SaaS systems.  
-- Built private RAG pipelines integrating LangChain + ChromaDB + S3 for document intelligence.  
-- Developed REST and Model Context Protocol APIs with integrated OpenAI endpoints.  
-- Automated infrastructure provisioning and deployment using CloudFormation and CI/CD.  
-- Created interactive admin UIs and dashboards using React, Next.js, and custom APIs.  
+---
 
-## Featured Projects
+## Currently
+- Hardening **hybrid AI workflows** (Bedrock + OpenAI) with evaluation, fallback strategies, and cost controls.
+- Building reusable **service modules** (auth, config, ingestion, orchestration) to scale delivery without rewrites.
+- Improving **observability for AI paths**: latency, retrieval quality, tool-call success, and regression checks.
 
-**[LangChain RAG App](https://github.com/cleverfakealias/langchain-rag-app)**  
-Private Retrieval-Augmented Generation platform with AWS S3 storage and vector embeddings using ChromaDB.  
-
-**[ZennLogic AI Platform](https://github.com/cleverfakealias/zennlogic_ai)**  
-Multi-purpose AI backend combining REST and MCP functionality with OpenAI and AWS Bedrock integration.  
-
-**[Zengineer Cloud](https://github.com/cleverfakealias/zengineer.cloud)**  
-Full-stack platform for modular content management, built with Next.js, Sanity CMS, and AWS.  
-
-## GitHub Analytics
-
-![Stats](https://github-readme-stats.vercel.app/api?username=cleverfakealias&show_icons=true&theme=tokyonight&hide_border=true)  
-![Streaks](https://streak-stats.demolab.com/?user=cleverfakealias&theme=tokyonight&hide_border=true)  
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=cleverfakealias&layout=compact&theme=tokyonight&hide_border=true)
-
-## Currently Working On
-
-- Expanding ZennLogic’s modular SaaS ecosystem.  
-- Integrating AWS Bedrock and OpenAI for hybrid AI workflows.  
+---
 
 ## Links
+- LinkedIn: https://www.linkedin.com/in/ben-hickman-02978819b/
+- Website: https://www.benhickman.dev
+- Zengineer.cloud: https://www.zengineer.cloud
+- ZenDev.pro: https://www.zendev.pro
+---
 
-- [LinkedIn](https://www.linkedin.com/in/ben-hickman-02978819b/)  
-- [ZennLogic](https://www.zennlogic.com)  
-- [BenHickman.dev](https://www.benhickman.dev)
+## GitHub
+![Stats](https://github-readme-stats.vercel.app/api?username=cleverfakealias&show_icons=true&theme=transparent&hide_border=true&hide_title=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=cleverfakealias&layout=compact&theme=transparent&hide_border=true&hide_title=true)
 
-![Visitors](https://komarev.com/ghpvc/?username=cleverfakealias&color=blueviolet)
+![Visitors](https://komarev.com/ghpvc/?username=cleverfakealias&color=grey)
