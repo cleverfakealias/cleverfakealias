@@ -1,5 +1,4 @@
-# Ben Hickman
-Founder • Software Engineer (Cloud + AI Systems)  
+
 I build and operate distributed software on AWS, and I add AI where it measurably improves the product: search, automation, and workflow tooling.
 
 **Contact:** me@benhickman.dev
