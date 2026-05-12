@@ -1,63 +1,41 @@
-# Ben Hickman
-Founder • Software Engineer (Cloud + AI Systems)  
-I build and operate distributed software on AWS, and I add AI where it measurably improves the product: search, automation, and workflow tooling.
+Founder · Software Engineer — Distributed Systems & Applied AI
+I build production-grade backend infrastructure and AI-powered systems. My background spans event-driven architecture, data engineering, and applied ML — usually in environments where reliability, latency, and cost actually matter.
+Currently working as an AI Engineer, building LLM-powered workflows and evaluation infrastructure on top of a decade of distributed systems experience.
+me@benhickman.dev · LinkedIn · benhickman.dev · zengineer.cloud
 
-**Contact:** me@benhickman.dev
+What I Build
+Event-Driven Systems — Kafka/Confluent Cloud pipelines, async orchestration, service-to-service contracts, backpressure and retry strategies that hold up under load.
+Data Platforms — Databricks, Delta Lake, and ingestion workflows that go from raw to reliable. Designed for both batch and streaming with schema evolution in mind.
+AI-Enabled Features — Multi-agent systems with LangGraph, RAG pipelines, document intelligence, and tool-using automation. Tracked with MLflow, evaluated with real evals (not vibes).
+Production Infrastructure — Lambda/EC2/API Gateway + CloudFormation/Terraform, CI/CD guardrails, Grafana/Prometheus observability, safe deploys. I'm the one who cares about the rollback story.
 
----
+Engineering Principles
 
-## What I Do
-- Ship **event-driven backends**: ingestion, orchestration, async workflows, and service-to-service APIs.
-- Build **AI-enabled features**: retrieval (RAG), document intelligence, and tool-using automation.
-- Deliver **full-stack**: APIs + admin UIs + CI/CD + observability, with production constraints in mind.
+Explicit contracts — clear interfaces beat clever abstractions every time
+Failure-first design — idempotency, retries, dead-letter queues, circuit breakers
+Measured AI — latency/cost budgets, retrieval quality checks, regression gates before promotion
+Operability — if it's hard to debug at 2am, it's not done
 
----
 
-## How I Build
-I optimize for:
-- **Clarity over cleverness** (simple interfaces, explicit contracts)
-- **Reliability over heroics** (idempotency, retries, backpressure, failure modes)
-- **Measured AI** (evals, latency/cost tracking, retrieval quality checks)
-- **Operability** (logs/metrics/traces, safe deploys, easy rollbacks)
+Core Stack
+DomainToolsLanguagesPython, Java, TypeScriptCloud (AWS)Lambda, EC2, API Gateway, S3, DynamoDB, RDS, CloudFront, Route 53StreamingKafka, Confluent CloudDataDatabricks, Delta Lake, PostgreSQL, ChromaDBAI / MLLangGraph, LangChain, OpenAI API, Databricks Model Serving, MLflow, Hugging FaceBack EndFastAPI, Flask, DropwizardFront EndReact, Next.js, ViteInfraCloudFormation, Terraform, Docker, KubernetesCI/CD & ObservabilityGitHub Actions, Azure Pipelines, Jenkins, Grafana, Prometheus
 
----
+Selected Work
+Kafka-Based Ingestion Platform
+Designed and operated event-driven ingestion pipelines on Confluent Cloud for a B2B SaaS product. Handled schema evolution, consumer group lag monitoring, and dead-letter processing at scale.
+Databricks Integration (iData / Delta Lake)
+Built the integration layer between a legacy data system and Databricks, enabling reliable Delta Lake writes with idempotent ingestion patterns and lineage tracking across the pipeline.
+LangGraph Multi-Agent System
+Architected a multi-agent workflow using LangGraph with MLflow tracing for observability. Included tool-call success tracking, per-agent latency budgets, and a retrieval quality evaluation loop.
+Private Document RAG Pipeline
+Built an internal retrieval system for unstructured document search: chunking strategy, embedding pipeline, ChromaDB retrieval, and a FastAPI layer with response caching and latency guardrails.
+REST + MCP API Layer for LLM Workflows
+Developed MCP-compatible API surfaces to integrate LLM tooling into production services, with auth, rate limiting, and structured error contracts.
+IaC-First Service Delivery
+Templated CloudFormation/Terraform modules (auth, config, ingestion, orchestration) reusable across services — reduced per-service bootstrap time and drift between environments.
 
-## Core Stack
-**Languages:** Python, Java, TypeScript  
-**AWS:** Lambda, EC2, API Gateway, S3, DynamoDB, RDS, CloudFront, Route 53  
-**Infra:** CloudFormation, Terraform, Docker, Kubernetes  
-**Back End:** FastAPI, Flask, Dropwizard  
-**Front End:** React, Next.js, Vite  
-**Data & AI:** Postgres, ChromaDB, LangChain, OpenAI API, Hugging Face  
-**CI/CD & Observability:** GitHub Actions, Azure Pipelines, Jenkins, Grafana, Prometheus
+Currently
 
----
-
-## Work Highlights
-- Designed and operated **event-driven AWS architectures** for high-availability SaaS systems.
-- Built **private retrieval pipelines** for internal document search and automation.
-- Developed **REST + MCP APIs** to integrate LLM workflows into real services.
-- Automated **infrastructure + releases** with IaC and CI/CD guardrails.
-- Delivered **admin surfaces** that support operational workflows (not just pretty dashboards).
-
----
-
-## Currently
-- Hardening **hybrid AI workflows** (Bedrock + OpenAI) with evaluation, fallback strategies, and cost controls.
-- Building reusable **service modules** (auth, config, ingestion, orchestration) to scale delivery without rewrites.
-- Improving **observability for AI paths**: latency, retrieval quality, tool-call success, and regression checks.
-
----
-
-## Links
-- LinkedIn: https://www.linkedin.com/in/ben-hickman-02978819b/
-- Website: https://www.benhickman.dev
-- Zengineer.cloud: https://www.zengineer.cloud
-- ZenDev.pro: https://www.zendev.pro
----
-
-## GitHub
-![Stats](https://github-readme-stats.vercel.app/api?username=cleverfakealias&show_icons=true&theme=transparent&hide_border=true&hide_title=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=cleverfakealias&layout=compact&theme=transparent&hide_border=true&hide_title=true)
-
-![Visitors](https://komarev.com/ghpvc/?username=cleverfakealias&color=grey)
+AI Engineer (May 2026) — building hybrid LLM workflows with evaluation infrastructure, fallback strategies, and cost controls across Bedrock + OpenAI
+Developing reusable service modules to scale delivery without per-project rewrites
+Improving observability for AI execution paths: latency, tool-call success, retrieval quality, and regression detection
