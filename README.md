@@ -1,84 +1,63 @@
 # Ben Hickman
-### Founder · Software Engineer — Distributed Systems & Applied AI
+### Applied AI Engineer · Distributed Systems
 
-I build production-grade backend infrastructure and AI-powered systems. My background spans event-driven architecture, data engineering, and applied ML — usually in environments where reliability, latency, and cost actually matter.
-
-Currently working as an **AI Engineer**, building LLM-powered workflows and evaluation infrastructure on top of a decade of distributed systems experience.
+I build production AI systems on top of more than a decade of backend and data engineering. Today that means agentic workflows in LangGraph running on Kubernetes, with Amazon Bedrock for model access and Postgres with pgvector for retrieval.
 
 **me@benhickman.dev** · [LinkedIn](https://www.linkedin.com/in/ben-hickman-02978819b/) · [benhickman.dev](https://www.benhickman.dev) · [zengineer.cloud](https://www.zengineer.cloud)
 
 ---
 
-## What I Build
+## What I Work On Now
 
-**Event-Driven Systems** — Kafka/Confluent Cloud pipelines, async orchestration, service-to-service contracts, backpressure and retry strategies that hold up under load.
+**Agentic workflows.** LangGraph graphs for multi step reasoning and tool use, with explicit state, retries and fallbacks so a bad model call degrades gracefully instead of failing the whole run.
 
-**Data Platforms** — Databricks, Delta Lake, and ingestion workflows that go from raw to reliable. Designed for both batch and streaming with schema evolution in mind.
+**Retrieval and semantic search.** Postgres with pgvector as the vector store, Cohere Embed v4 for embeddings, and hybrid retrieval that combines vector and keyword search. One database for relational data and vectors keeps the system simple to operate.
 
-**AI-Enabled Features** — Multi-agent systems with LangGraph, RAG pipelines, document intelligence, and tool-using automation. Tracked with MLflow, evaluated with real evals (not vibes).
+**Model access on Bedrock.** Amazon Bedrock as the model layer, with per workflow model choice, cost and latency budgets, and evaluation gates before a prompt or model change ships.
 
-**Production Infrastructure** — Lambda/EC2/API Gateway + CloudFormation/Terraform, CI/CD guardrails, Grafana/Prometheus observability, safe deploys. I'm the one who cares about the rollback story.
+**Running it on Kubernetes.** Containerized agents and APIs deployed to Kubernetes, with the same observability and rollout discipline as any other production service.
 
----
+## Where I Came From
+
+Before AI engineering I spent years on event driven and data platform work, and that background shapes how I build AI systems.
+
+- **Kafka ingestion on Confluent Cloud** for a B2B SaaS product: schema evolution, consumer lag monitoring and dead letter processing at scale.
+- **Databricks and Delta Lake integration**: idempotent ingestion from a legacy data system with lineage across the pipeline.
+- **Infrastructure as code**: reusable CloudFormation and Terraform modules for auth, config, ingestion and orchestration.
 
 ## Engineering Principles
 
-- **Explicit contracts** — clear interfaces beat clever abstractions every time
-- **Failure-first design** — idempotency, retries, dead-letter queues, circuit breakers
-- **Measured AI** — latency/cost budgets, retrieval quality checks, regression gates before promotion
-- **Operability** — if it's hard to debug at 2am, it's not done
-
----
+- **Measured AI.** Evals, latency budgets and cost limits decide what ships, not a good demo.
+- **Failure first.** Idempotency, retries, dead letter queues and circuit breakers apply to model calls too.
+- **Explicit contracts.** Clear interfaces and typed state beat clever abstractions.
+- **Operability.** If it is hard to debug at 2am, it is not done.
 
 ## Core Stack
 
 | Domain | Tools |
 |---|---|
-| **Languages** | Python, Java, TypeScript |
-| **Cloud (AWS)** | Lambda, EC2, API Gateway, S3, DynamoDB, RDS, CloudFront, Route 53 |
-| **Streaming** | Kafka, Confluent Cloud |
-| **Data** | Databricks, Delta Lake, PostgreSQL, ChromaDB |
-| **AI / ML** | LangGraph, LangChain, OpenAI API, Databricks Model Serving, MLflow, Hugging Face |
-| **Back End** | FastAPI, Flask, Dropwizard |
-| **Front End** | React, Next.js, Vite |
-| **Infra** | CloudFormation, Terraform, Docker, Kubernetes |
-| **CI/CD & Observability** | GitHub Actions, Azure Pipelines, Jenkins, Grafana, Prometheus |
+| **AI and agents** | LangGraph, LangChain, Amazon Bedrock, Cohere Embed v4, MCP |
+| **Retrieval** | PostgreSQL, pgvector, hybrid search, rerankers |
+| **Platform** | Kubernetes, Docker, AWS, Cloudflare Workers |
+| **Languages** | Python, TypeScript, Java |
+| **Data and streaming** | Kafka, Confluent Cloud, Databricks, Delta Lake |
+| **Infra and delivery** | Terraform, CloudFormation, GitHub Actions |
+| **Observability** | Grafana, Prometheus, MLflow |
 
----
+## Projects
 
-## Selected Work
+Side projects where I try ideas before they reach work:
 
-**Kafka-Based Ingestion Platform**
-Designed and operated event-driven ingestion pipelines on Confluent Cloud for a B2B SaaS product. Handled schema evolution, consumer group lag monitoring, and dead-letter processing at scale.
-
-**Databricks Integration (iData / Delta Lake)**
-Built the integration layer between a legacy data system and Databricks, enabling reliable Delta Lake writes with idempotent ingestion patterns and lineage tracking across the pipeline.
-
-**LangGraph Multi-Agent System**
-Architected a multi-agent workflow using LangGraph with MLflow tracing for observability. Included tool-call success tracking, per-agent latency budgets, and a retrieval quality evaluation loop.
-
-**Private Document RAG Pipeline**
-Built an internal retrieval system for unstructured document search: chunking strategy, embedding pipeline, ChromaDB retrieval, and a FastAPI layer with response caching and latency guardrails.
-
-**REST + MCP API Layer for LLM Workflows**
-Developed MCP-compatible API surfaces to integrate LLM tooling into production services, with auth, rate limiting, and structured error contracts.
-
-**IaC-First Service Delivery**
-Templated CloudFormation/Terraform modules (auth, config, ingestion, orchestration) reusable across services — reduced per-service bootstrap time and drift between environments.
-
----
-
-## Currently
-
-- **AI Engineer** (May 2026) — building hybrid LLM workflows with evaluation infrastructure, fallback strategies, and cost controls across Bedrock + OpenAI
-- Developing reusable service modules to scale delivery without per-project rewrites
-- Improving observability for AI execution paths: latency, tool-call success, retrieval quality, and regression detection
-
----
+- **[zenn_ai](https://github.com/cleverfakealias/zenn_ai)** · Twitch AI chat bot with layered prompt injection defenses, a Python MCP server for game data, and a hardened self hosted deploy.
+- **[ZenMind](https://github.com/cleverfakealias/ZenMind)** · Local first RAG over Obsidian notes: hybrid BM25 and vector retrieval, reranking, HyDE retries and an eval harness.
+- **[exile-view](https://github.com/cleverfakealias/exile-view)** · Twitch extension on Cloudflare Workers with D1, R2, JWT auth and PKCE OAuth.
+- **[jev-sandbox](https://github.com/cleverfakealias/jev-sandbox)** · Evaluating an LLM gate that decides whether a support case is safe to automate.
+- **[token-counter](https://github.com/cleverfakealias/token-counter)** · Prices Claude Code usage at API rates from local transcripts. Stdlib Python and SQLite.
+- **[agents](https://github.com/cleverfakealias/agents)** · My Claude Code project scaffold: hooks that format, lint, test and guard every agent edit.
 
 ## Consulting
 
-Available for contract work through [zengineer.cloud](https://www.zengineer.cloud) and [zendev.pro](https://www.zendev.pro) — event-driven architecture, AI workflow tooling, and data platform engineering.
+Available for contract work through [zengineer.cloud](https://www.zengineer.cloud): agentic systems, RAG and semantic search, and data platform engineering.
 
 ---
 
@@ -86,7 +65,5 @@ Available for contract work through [zengineer.cloud](https://www.zengineer.clou
 
 ![Stats](https://github-readme-stats.vercel.app/api?username=cleverfakealias&show_icons=true&theme=transparent&hide_border=true&hide_title=true)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=cleverfakealias&layout=compact&theme=transparent&hide_border=true&hide_title=true)
-
-![Visitors](https://komarev.com/ghpvc/?username=cleverfakealias&color=grey)
 
 </div>
